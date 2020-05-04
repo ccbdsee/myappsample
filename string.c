@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int my_strlen(char *s)
+size_t my_strlen(const char *s)
 {
    char *p = s;
 
@@ -10,7 +10,7 @@ int my_strlen(char *s)
    return (p - s);
 }
 
-size_t main(void)
+int main(void)
 {
    int i;
    char *s[] = 
