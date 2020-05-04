@@ -24,6 +24,7 @@ char *my_strcpy(char *t, char *s)
    
 }
 //this is an added comment
+//this is another comment
 
 int main(void)
 {
