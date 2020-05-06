@@ -1,5 +1,6 @@
 #include <stdio.h>
 //modify file with comment
+//this is a comment for patch
 
 size_t my_strlen(const char *s)
 {
