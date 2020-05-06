@@ -1,2 +1,2 @@
 hello: string_operations.c 
-	$(C) $(cflags) $? &LDFLAGS) -O $@
+	$(CC) $(cflags) $? &LDFLAGS) -O $@
