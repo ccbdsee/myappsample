@@ -1,0 +1,23 @@
+From ca5ba8298f773af465ae732406a24909c904ba9a Mon Sep 17 00:00:00 2001
+From: Charlie <ccbdsee@gmail.com>
+Date: Wed, 6 May 2020 19:44:29 -0400
+Subject: [PATCH] added mystrcat function
+
+---
+ src/string_operations.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/string_operations.c b/src/string_operations.c
+index 06864f4..0365e9a 100644
+--- a/src/string_operations.c
++++ b/src/string_operations.c
+@@ -1,5 +1,6 @@
+ #include <stdio.h>
+ //modify file with comment
++//this is a comment for patch
+ 
+ size_t my_strlen(const char *s)
+ {
+-- 
+2.26.2.windows.1
+
