@@ -1,7 +1,9 @@
 #include <stdio.h>
 //modify file with comment
 //this is a comment for anoother patch
+
 //this is a comment for a new branch
+
 
 size_t my_strlen(const char *s)
 {
